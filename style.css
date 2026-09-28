@@ -53,11 +53,14 @@ h1 {
 
 /* ---------- Cartões ---------- */
 .cartoes {
-  /* complete com flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .cartao {
-  width: 100%;
+  flex: 1 1 280px;
+  box-sizing: border-box;
   padding: 20px;
   border: 2px solid #e5e7eb;
   border-radius: 8px;
