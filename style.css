@@ -33,8 +33,9 @@ body {
   text-decoration: none;
 }
 
-.menu a:focus {
-  outline: none;
+.menu a:focus-visible {
+  outline: 3px solid #fca311;
+  outline-offset: 3px;
 }
 
 /* ---------- Conteúdo ---------- */
